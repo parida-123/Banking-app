@@ -1,6 +1,6 @@
 ---
 - name: Install and Configure Prometheus
-  hosts: all
+  hosts: Moniternode
   become: yes
 
   vars:
